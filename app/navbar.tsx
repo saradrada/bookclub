@@ -3,7 +3,8 @@ import React from "react";
 export default function Navbar() {
   const sections = ["About", "Join Book Club", "Contact"];
   return (
-    <nav className="container mx-auto px-6 py-3">
+    <div className="bg-black">
+      <nav className="container mx-auto px-6 py-3">
       <div className="flex items-center justify-between">
         <div className="text-white font-bold text-xl">
           <a href="#">BookBabes</a>
@@ -53,5 +54,6 @@ export default function Navbar() {
         </ul>
       </div>
     </nav>
+    </div>
   );
 }
