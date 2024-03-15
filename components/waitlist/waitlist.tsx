@@ -1,6 +1,6 @@
 "use client";
 import React from "react";
-import { BackgroundBeams } from "@/components/background-beams";
+import { BackgroundBeams } from "@/components/waitlist/background-beams";
 
 export function WaitingList() {
   return (
