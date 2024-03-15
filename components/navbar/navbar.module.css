@@ -1,0 +1,10 @@
+@font-face {
+  font-family: 'SparkyStones';
+  src: url('/fonts/SparkyStonesRegular-BW6ld.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.sparkyStonesFont {
+  font-family: 'SparkyStones', sans-serif;
+}
