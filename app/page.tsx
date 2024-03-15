@@ -1,10 +1,9 @@
-import Image from "next/image";
-import { WaitingList } from "../components/waitlist/waitlist";
+import Hero from "../components/hero/hero";
 
-export default function Home() {
+export default function Page() {
   return (
-    <div>
-      <WaitingList />
-    </div>
+    <>
+      <Hero />
+    </>
   );
 }
