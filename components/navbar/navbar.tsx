@@ -7,13 +7,6 @@ import { montserrat } from './fonts';
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
-
-  const menuOptions = [{ title: 'HOME', url: "/" },
-  { title: 'BOOK OF THE MONTH', url: "/home" },
-  { title: 'JOIN THE CLUB', url: "/home" },
-  { title: 'EVENTS', url: "/home" },
-  ]
-
   return (
     <header className="bg-white border-b border-gray-200">
       <nav className="container mx-auto flex justify-between items-center py-4">
@@ -34,17 +27,6 @@ const Navbar = () => {
           <Link href="/subscribe"><p className={`${montserrat.className} text-xs font-bold hover:text-gray-600`}>Subscribe</p></Link>
         </div>
       </nav>
-
-      {/* Bottom Menu */}
-      <div className="bg-white">
-        <nav className="container mx-auto py-3">
-          <div className="flex justify-center space-x-10">
-            {menuOptions && menuOptions.map(option =>
-              <Link key={option.title} href={option.url}><p className={`${montserrat.className} text-black font-bold hover:text-gray-400`}>{option.title}</p></Link>
-            )}
-          </div>
-        </nav>
-      </div>
     </header>
   );
 };
