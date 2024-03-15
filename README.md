@@ -1,2 +1,1 @@
-# bookclub
-Book club website
+# Book Club
